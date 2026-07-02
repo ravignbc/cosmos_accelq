@@ -4,7 +4,7 @@
   uses: accelQ-Inc/accelq-ci-github-actions@v1.4
   with:
     # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-    appURL: 
+    appURL: https://github.com/NBCIDT/COSMO-Accelq.git
     # Your ACCELQ User ID
     userName: ravi.gumpu@northernbeaches.nsw.gov.au
     # API key available in Profile section of ACCELQ
