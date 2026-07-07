@@ -4,15 +4,15 @@
   uses: accelQ-Inc/accelq-ci-github-actions@v1.4
   with:
     # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-    appURL: https://github.com/NBCIDT/COSMO-Accelq.git
+    appURL: https://accelq.northernbeaches.nsw.gov.au/
     # Your ACCELQ User ID
     userName: ravi.gumpu@northernbeaches.nsw.gov.au
     # API key available in Profile section of ACCELQ
-    apiKey: "bZTPXmMu-Ea5vlcBw7vvS7DDdxMXj7URpRw6sTwq6ck"
+    apiKey: bZTPXmMu-Ea5vlcBw7vvS7DDdxMXj7URpRw6sTwq6ck
     # Tenant Code displayed in the Profile section of ACCELQ
     tenantCode: nbc
     # This ID should come from the CI job you saved in ACCELQ application
-    jobId: 
+    jobId: 785
     # Run Params(optional) should be JSON string form example: '{"username": "John Todd", "password": "bxW&=UVw"}'
     runParam: # optional
     # Proxy Host (optional)
